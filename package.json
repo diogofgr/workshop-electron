@@ -1,0 +1,20 @@
+{
+  "name": "electron-workshop",
+  "version": "1.0.0",
+  "description": "An electron workshop",
+  "main": "main.js",
+  "license": "UNLICENSED",
+  "author": "Diogo <diogofgr@gmail.com>",
+  "homepage": "https://myTodoApp.com",
+  "scripts": {
+    "start": "electron .",
+    "build:linux": "electron-builder --linux"
+  },
+  "devDependencies": {
+    "electron": "^6.0.9",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-store": "^5.0.0"
+  }
+}

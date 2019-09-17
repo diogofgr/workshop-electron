@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron TODO</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button id="btnQuit" class="btnQuit">x</button>
+    <h1>My ToDo's</h1>
+    
+    <form id="todoForm">
+      <input id="textInput" class="textInput" type="text">
+      <input class="btnSubmit" type="submit" value="Add">
+    </form>
+    
+    <ul id="todoList"></ul>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
